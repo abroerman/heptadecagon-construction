@@ -23,6 +23,8 @@ p{65} = [xint, yint];
 [x{40}, y{40}] = drawline(p{65}, p{1}, 0, 0);
 
 % Seventeenthize
+% More could have been placed in the loop had I been more careful with
+% point numbers...
 
 [x{41}, y{41}] = drawline(p{59}, p{65}, 0, 0);
 [x{42}, y{42}] = drawline(p{65}, p{54}, 0, 0);
