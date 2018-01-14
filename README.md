@@ -9,3 +9,5 @@ To make the construction consistent, I defined some rules. I required that every
 This code closely analogs real geometric construction. All points are found only by intersections of lines, and lines are only drawn using previously-found points as inputs to functions that mimic the capabilities of compasses and straightedges.
 
 To generate the construction, first run "Construction.m". This will find two vertices (three if you count one on the end of the drawn diameter) of a regular heptadecagon drawn inside the circle. Then, run one of the "seventeenthizeX.m" scripts. There are multiple ways to construct the rest of the heptadecagon from those two vertices, of which two are coded here. I think "seventeenthize2.m" looks better since it stays out of the way of the stuff happening near the center. Finally, run "plotconstruction.m" to view the construction.
+
+It should be noted that I didn't bother making this code clean, since I only need to run it once to generate the construction.
